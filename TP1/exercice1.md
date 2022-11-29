@@ -21,6 +21,14 @@ Preuve en est qu'un site qui devait être livré en __novembre 2018__ a été re
 
  Les clefs SSH n'etatit pas perso, je n'avait pas de compte pour travailler, j'utilisais celui de mon predecesseur. 
 
+ #### Outils utilisé : 
+
+ - Wordpress 
+ - Filezilla
+ - Trello 
+ - Figma 
+
+
  ## Amelioration possible
 
- Tout est améliorable. 
+ Tout est améliorable. Si ils utilisaient GIT, la modification et les test serait moins dangereuse et compliqué que d'ajouter ou supprimer des fichiers avec __FileZilla__ par exemple, le suivi du projet pourrait etre journalier et non hebdomadaire. 
