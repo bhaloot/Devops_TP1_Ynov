@@ -66,4 +66,7 @@ En allant sur http://localhost:8080 on retrouve le hello world.
 
 c. 
 
+La prinicipale difference est qu'avec un *dockerfile* on peut faire executement des commande dans l'ordre voulu et en une fois, ce qui permets au fur et a mesure de recréer une image sans avoir à la reconfigurer du début. 
+
+
 
