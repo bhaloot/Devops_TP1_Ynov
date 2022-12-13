@@ -69,4 +69,11 @@ c.
 La prinicipale difference est qu'avec un *dockerfile* on peut faire executement des commande dans l'ordre voulu et en une fois, ce qui permets au fur et a mesure de recréer une image sans avoir à la reconfigurer du début. 
 
 
+5. a. 
+
+Pour recuperer l'image Mysql on entre la commande ` docker pull mysql`. 
+
+Pour executer le conteneur : 
+` docker run --name mysql-TP -e MYSQL_ROOT_PASSWORD=my-secret-pw -d mysql`
+
 
