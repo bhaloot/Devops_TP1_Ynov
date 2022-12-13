@@ -99,7 +99,11 @@ Pour lancer : `docker compose up`
 
 Pour stopper : `docker compose down`
 
+c. 
 
+Pour le fichier yml *se referer au fichier docker-compose.yml*
+
+avec la commande `docker compose up`. tout se lance seul.
 
 
 
