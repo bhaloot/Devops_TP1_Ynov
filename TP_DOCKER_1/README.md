@@ -89,5 +89,9 @@ Après avoir récuperé l'image de PhpMyAdmin, il faut ensuite la run en la lian
 
 *Se referer a l'image `MyAdmin.png`* 
 
+6. a. 
+
+La commande `docker compose` permet de lancer plusieur images, contenu dans un dockerfile. ce qui permet de builder une application et ses dependances e nune fois sans avoir a tout relancer un par un, à l'instar de `docker run` ou il faudrait rentrer un par un les images.
+
 
 
