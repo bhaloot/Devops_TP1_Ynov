@@ -8,6 +8,7 @@
 
 Récupération de l'image d'Nginx.
 b. 
+
 Pour verifier la présence en local on execute : 
 
 `docker images`
@@ -75,5 +76,18 @@ Pour recuperer l'image Mysql on entre la commande ` docker pull mysql`.
 
 Pour executer le conteneur : 
 ` docker run --name mysql-TP -e MYSQL_ROOT_PASSWORD=my-secret-pw -d mysql`
+
+
+Même chose pour recuperer l'image de PhpMyAdmin : 
+`docker pull phpmyadmin`
+
+b.
+
+Après avoir récuperé l'image de PhpMyAdmin, il faut ensuite la run en la liant avec l'image de MySQL : 
+
+` docker run --name phpmyadmin -d --link mysql-TP:db -p 8080:80 phpmyadmin`
+
+*Se referer a l'image `MyAdmin.png`* 
+
 
 
