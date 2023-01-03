@@ -105,6 +105,8 @@ Pour le fichier yml *se referer au fichier docker-compose.yml*
 
 avec la commande `docker compose up`. tout se lance seul.
 
+blabla blab 
+
 
 
 
