@@ -1,0 +1,31 @@
+---
+volumes:
+  mysql-data:
+
+networks:
+  mynet:
+    driver: bridge
+
+services:
+  node:
+    build: .
+    depends_on:
+      - mysql
+    ports:
+      - 3000:3000
+    networks:
+      - mynet
+
+  mysql:
+    image: mariadb:10.9.4
+    environment:
+      MYSQL_ROOT_PASSWORD: "pa55w0rD"
+      MYSQL_DATABASE: "database"
+      MYSQL_USER: "user"
+      MYSQL_PASSWORD: "password"
+    volumes:
+      - mysql-data:/var/lib/mysql
+    expose:
+      - 3306
+    networks:
+      - mynet
