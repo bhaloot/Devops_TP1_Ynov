@@ -1,8 +1,9 @@
 FROM node:18-alpine
 
 WORKDIR /app
-ENV PORT 3000 
+
 COPY . /app
+RUN rm -rf node_modules
 RUN npm install --omit=dev
 
 EXPOSE 3000
