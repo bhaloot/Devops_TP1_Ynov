@@ -32,7 +32,7 @@ services:
             - prometheus-cadvisor
 
     prometheus:
-        image: prom/prometheus:v2.7.1
+        image: prom/prometheus:latest
         ports:
             - "9090:9090"
         volumes:
@@ -50,7 +50,7 @@ services:
     grafana:
         depends_on:
             - loki
-        image: grafana/grafana:6.0.0
+        image: grafana/grafana:latest
         ports:
             - "3000:3000"
         environment:
